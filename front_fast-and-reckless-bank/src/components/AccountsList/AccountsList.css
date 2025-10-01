@@ -1,0 +1,33 @@
+.accounts {
+  margin-top: 15px;
+}
+
+.account {
+  border: 1px solid #555;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3d3d3d;
+  color: #e0e0e0;
+}
+
+.account:hover {
+  border-color: #4dabf7;
+  background-color: #444444;
+}
+
+.account.selected {
+  border-color: #4dabf7;
+  background-color: #1a3a5c;
+}
+
+.account h3 {
+  margin: 0 0 5px 0;
+  color: #4dabf7;
+}
+
+.account p {
+  margin: 2px 0;
+  color: #b0b0b0;
+}

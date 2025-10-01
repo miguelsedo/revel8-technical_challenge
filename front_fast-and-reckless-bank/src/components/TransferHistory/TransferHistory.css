@@ -1,0 +1,36 @@
+/* TransferHistory specific styles */
+.transfers {
+  margin-top: 1rem;
+}
+
+.transfer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid #555;
+  background: #404040;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  color: #e0e0e0;
+}
+
+.transfer:last-child {
+  border-bottom: none;
+}
+
+.transfer strong {
+  color: #ff6b6b;
+}
+
+.transfer small {
+  color: #b0b0b0;
+}
+
+.transfer-number {
+  color: white;
+  padding: 2px 10px;
+  font-size: 0.8em;
+  margin-right: 8px;
+  font-weight: bold;
+}
