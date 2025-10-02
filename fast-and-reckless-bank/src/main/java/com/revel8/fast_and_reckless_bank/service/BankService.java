@@ -58,7 +58,6 @@ public class BankService {
         if (from == null || to == null) throw new IllegalArgumentException("Account not found");
         if (from.getBalance() < amount) throw new IllegalArgumentException("Insufficient funds");
 
-        // Update balances
         from.setBalance(from.getBalance() - amount);
         to.setBalance(to.getBalance() + amount);
 
